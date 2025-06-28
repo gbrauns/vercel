@@ -1,0 +1,15 @@
+
+{
+  "name": "replicate-proxy",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "api/generate.js",
+  "scripts": {
+    "start": "node api/generate.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7",
+    "cors": "^2.8.5"
+  }
+}
