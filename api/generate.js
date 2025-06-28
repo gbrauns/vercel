@@ -7,7 +7,7 @@ const app = express();
 const API_KEY = 'r8_fMq5gAwNPkjB8hnlRZNnWqBMGk9O3OE08B96i';
 const VERSION = '7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc';
 
-app.use(cors());
+app.use(cors({ origin: "*" }));
 app.use(express.json());
 
 app.post('/api/generate', async (req, res) => {
